@@ -34,10 +34,10 @@ The main result are discussed bellow using the confusion matrix and the classifi
 
 - the CC undersampling gives a similar result as the naive random sampling interms of flagging the high risk applications. But it has a low accuracy score.  
 
-|                | predicted high risk | predicted low risk    |
-|----------------|:---------------------:| :------------------:|
-|actual high risk| 70                  | 31                |
-|actual low risk | 10324                | 6780             |
+|                | predicted high risk | predicted low risk  |
+|----------------|:---------------------:| :----------------:|
+|actual high risk| 70                    | 31                |
+|actual low risk | 10324                 | 6780              |
 
 
 - `balanced accuracy score ≈ 54%`
@@ -48,10 +48,10 @@ The main result are discussed bellow using the confusion matrix and the classifi
 
 - the Cluster Centroid undersampling gives a similar result as the naive random sampling interms of flagging the high risk applications. But it has a low accuracy score.  
 
-|                | predicted high risk | predicted low risk    |
+|                | predicted high risk   | predicted low risk  |
 |----------------|:---------------------:| :------------------:|
-|actual high risk| 70                  | 31                |
-|actual low risk | 10324                | 6780             |
+|actual high risk| 70                    | 31                  |              
+|actual low risk | 10324                | 6780                 |
 
 
 - `balanced accuracy score ≈ 54%`
@@ -59,10 +59,10 @@ The main result are discussed bellow using the confusion matrix and the classifi
 
 ### SMOTEENN (over and under) sampling
 - a combination of over- and under-sampling results, as show in the confusion matrix bellow, was able to predic *82* of the 101 applications as *high risk*:
-|                | predicted high risk | predicted low risk    |
+|                | predicted high risk   | predicted low risk  |
 |----------------|:---------------------:| :------------------:|
-|actual high risk| 82                  | 19               |
-|actual low risk | 7593 	            | 9511             |
+|actual high risk| 82                    | 19                  |
+|actual low risk | 7593 	             | 9511                |
 
 - `balanced accuracy score ≈ 68%`
 
