@@ -8,10 +8,11 @@ The main result are discussed bellow using the confusion matrix and the classifi
 
 - the **confusion matrix** shows that out of the 101 high-risk credit card applications, we were able to flag only 71 of them. 
 
-|                | predicted high risk | predicted low risk    |
-|----------------|:---------------------:| :------------------:|
-|actual high risk| 71                  | 30                |
-|actual low risk | 7073                | 10031             |
+
+|                | predicted high risk | predicted low risk  |
+|----------------|:---------------------:| :----------------:|
+|actual high risk| 71                    | 30                |
+|actual low risk | 7073                  | 10031             |
 
 
 - `balanced accuracy score ≈ 64%`
@@ -21,10 +22,11 @@ The main result are discussed bellow using the confusion matrix and the classifi
 
 - using the SMOTE oversampling we predicted 64 of them as high rsik.  
 
-|                | predicted high risk | predicted low risk    |
-|----------------|:---------------------:| :------------------:|
-|actual high risk| 64                  | 37                |
-|actual low risk | 5286                | 11818             |
+
+|                | predicted high risk | predicted low risk  |
+|----------------|:---------------------:| :----------------:|
+|actual high risk| 64                    | 37                |
+|actual low risk | 5286                  | 11818             |
 
 
 - `balanced accuracy score ≈ 66%`
@@ -59,6 +61,7 @@ The main result are discussed bellow using the confusion matrix and the classifi
 
 ### SMOTEENN (over and under) sampling
 - a combination of over- and under-sampling results, as show in the confusion matrix bellow, was able to predic *82* of the 101 applications as *high risk*:
+
 |                | predicted high risk   | predicted low risk  |
 |----------------|:---------------------:| :------------------:|
 |actual high risk| 82                    | 19                  |
