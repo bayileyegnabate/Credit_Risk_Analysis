@@ -68,6 +68,7 @@ The main result are discussed bellow using the confusion matrix and the classifi
 
 
 - imbalanced classification report:
+
  |   |pre  |rec  |spe  |f1   |geo  |iba  |sup |
  |---|:---:|:---:|:---:|:---:|:---:|:---:|:---|
  |high_risk|0.01 | 0.81 | 0.56| 0.02| 0.67| 0.46| 101|
