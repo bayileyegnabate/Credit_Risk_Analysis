@@ -79,4 +79,4 @@ The main result are discussed bellow using the confusion matrix and the classifi
  |avg/total|0.99 | 0.56| 0.81 | 0.71| 0.67 | 0.44 | 17205|
  
  
- In conclusion, the SMOTEENN algorithm gives the highest best score in capturing the high-risk application. 
+ In conclusion, the SMOTEENN algorithm gives the highest best score in capturing the high-risk applications. 
