@@ -72,11 +72,28 @@ The main result are discussed bellow using the confusion matrix and the classifi
 
 - imbalanced classification report:
 
- |   |pre  |rec  |spe  |f1   |geo  |iba  |sup |
- |---|:---:|:---:|:---:|:---:|:---:|:---:|:---|
- |high_risk|0.01 | 0.81 | 0.56| 0.02| 0.67| 0.46| 101|
- |low risk |1.00 | 0.56| 0.81 | 0.71| 0.67| 0.44| 17104|
- |avg/total|0.99 | 0.56| 0.81 | 0.71| 0.67 | 0.44 | 17205|
+ |         |pre  |rec  |spe  |f1   |geo  |iba   |sup  |
+ |---      |:---:|:---:|:---:|:---:|:---:|:---: |:---:|
+ |high_risk|0.01 |0.81 |0.56 | 0.02| 0.67 | 0.46|101  |
+ |low risk |1.00 |0.56 |0.81 | 0.71| 0.67 | 0.44|17104|
+ |avg/total|0.99 |0.56 |0.81 | 0.71| 0.67 | 0.44|17205|
  
  
- In conclusion, the SMOTEENN algorithm gives the highest best score in capturing the high-risk applications. 
+ ### Easy Ensemble AdaBoost Classifier
+ using the *Easy Ensemble Classifier* gives the best `balanced accuracy test` of `93%` Also, as shown in the confusion matrix, `EasyEnsembleClassifier`identifies 93 0f the 101 high-risk correctly. 
+ 
+|                | predicted high risk   | predicted low risk  |
+|----------------|:---------------------:| :------------------:|
+|actual high risk| 93                    | 8                   |
+|actual low risk | 983 	                 | 16121               |
+
+
+- imbalanced classification report:
+
+ |         |pre  |rec  |spe  |f1   |geo  |iba   |sup  |
+ |---      |:---:|:---:|:---:|:---:|:---:|:---: |:---:|
+ |high_risk|0.09 |0.92 |0.94 | 0.16| 0.93 | 0.87|101  |
+ |low risk |1.00 |0.94 |0.92 | 0.97| 0.93 | 0.87|17104|
+ |avg/total|0.99 |0.94 |0.92 | 0.97| 0.93 | 0.87|17205|
+ 
+ In conclusion, the `EasyEnsembleClassifier` algorithm gives the highest best score in capturing the high-risk applications. 
